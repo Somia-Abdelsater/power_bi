@@ -42,7 +42,41 @@ This project leverages Power BI's capability to create field parameters, which a
 #### Example Use Cases
 we can use the same technique to: 
 - **Data translation**: to determines which language is displayed to report consumers.
-- **Change Dimension or metrics of visuals**:
+- **Change Dimension or metrics of visuals**
+
+### Project 2: [Visual Calculations]
+
+#### Project Description: 
+Visual calculations allow you to create new calculations directly on a visual using an intuitive, Excel-like interface. This feature simplifies the process of performing calculations by eliminating the need for complex DAX expressions, making it more user-friendly and accessible.
+#### Key Benefits of Visual Calculations
+•	Simplicity: No more struggling with convoluted DAX code. Visual calculations are straightforward and easy to use.
+•	Performance: These calculations operate on aggregated data, which often leads to improved performance compared to traditional measures.
+•	Flexibility: You can leverage the visual’s axes and structure for more dynamic and responsive calculations.
+#### How to Used
+1.	Enable the Feature:
+o	Navigate to Options and Settings ➡️ Options ➡️ Preview features.
+o	Select Visual Calculations and restart Power BI Desktop.
+2.	Choose a Visual:
+o	Select the visual where you want to apply the calculation.
+3.	Create the Calculation:
+o	Click the New Calculation button in the ribbon.
+4.	Define the Formula:
+o	In the formula bar, type your DAX expression. For example:
+	Running Sum: Running sum = RUNNINGSUM([Sales Amount])
+#### Used in Project:
+•	Matrix Overview and Preview Feature
+•	Running Sum
+•	Moving Average
+•	Percent of Parent
+•	Percent of Grand Total
+•	Average of Children
+•	Versus Previous
+•	Versus Next
+•	Versus First
+•	Versus Last
+#### Use Cases
+•	Calculate running totals, moving averages, or custom metrics directly on your charts.
+•	Simplify complex business logic without cluttering your data model.
 
   
 ## Next Steps
