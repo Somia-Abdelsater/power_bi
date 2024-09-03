@@ -44,7 +44,7 @@ we can use the same technique to:
 - **Data translation**: to determines which language is displayed to report consumers.
 - **Change Dimension or metrics of visuals**
 
-### Project 2: [Visual Calculations]
+### Project 3: [Visual Calculations]
 
 #### Project Description: 
 Visual calculations allow you to create new calculations directly on a visual using an intuitive, Excel-like interface. This feature simplifies the process of performing calculations by eliminating the need for complex DAX expressions, making it more user-friendly and accessible.
